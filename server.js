@@ -7,7 +7,7 @@ const PORT = 3000;
 
 http
   .createServer((req, res) => {
-    let file = req.url === "/" ? "/main.html" : req.url;
+    let file = req.url === "/" ? "/index.html" : req.url;
     let filepath = path.join(base, decodeURIComponent(file));
 
     fs.readFile(filepath, (err, data) => {
