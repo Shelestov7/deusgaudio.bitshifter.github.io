@@ -27,7 +27,7 @@ var ENVIRONMENT_IS_SHELL = !ENVIRONMENT_IS_WEB && !ENVIRONMENT_IS_NODE && !ENVIR
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: /var/folders/2b/37vhp07d7813st_d8ygx2ktw0000gn/T/tmpdvqrjf26.js
+// include: /var/folders/2b/37vhp07d7813st_d8ygx2ktw0000gn/T/tmp3d5ulj7e.js
 
   Module['expectedDataFileDownloads'] ??= 0;
   Module['expectedDataFileDownloads']++;
@@ -206,25 +206,25 @@ Module['FS_createPath']("/resources", "img", true, true);
     }
 
     }
-    loadPackage({"files": [{"filename": "/resources/.DS_Store", "start": 0, "end": 6148}, {"filename": "/resources/fonts/.DS_Store", "start": 6148, "end": 12296}, {"filename": "/resources/fonts/Iosevka-Regular.ttc", "start": 12296, "end": 40829144}, {"filename": "/resources/fonts/JetBrainsMono-Regular.ttf", "start": 40829144, "end": 41103044}, {"filename": "/resources/fonts/NotoSansMono-VariableFont_wdth,wght.ttf", "start": 41103044, "end": 42810952}, {"filename": "/resources/fonts/Pragmatapro.ttf", "start": 42810952, "end": 43146480}, {"filename": "/resources/fonts/unifont-16.0.04.otf", "start": 43146480, "end": 48467360}, {"filename": "/resources/img/logo.png", "start": 48467360, "end": 49854245}], "remote_package_size": 49854245});
+    loadPackage({"files": [{"filename": "/resources/.DS_Store", "start": 0, "end": 6148}, {"filename": "/resources/Pragmatapro.ttf", "start": 6148, "end": 341676}, {"filename": "/resources/fonts/.DS_Store", "start": 341676, "end": 347824}, {"filename": "/resources/fonts/JetBrainsMono-Regular.ttf", "start": 347824, "end": 621724}, {"filename": "/resources/img/logo.png", "start": 621724, "end": 2008609}], "remote_package_size": 2008609});
 
   })();
 
-// end include: /var/folders/2b/37vhp07d7813st_d8ygx2ktw0000gn/T/tmpdvqrjf26.js
-// include: /var/folders/2b/37vhp07d7813st_d8ygx2ktw0000gn/T/tmpvp94j7hd.js
+// end include: /var/folders/2b/37vhp07d7813st_d8ygx2ktw0000gn/T/tmp3d5ulj7e.js
+// include: /var/folders/2b/37vhp07d7813st_d8ygx2ktw0000gn/T/tmpy8v_4bcp.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if ((typeof ENVIRONMENT_IS_WASM_WORKER != 'undefined' && ENVIRONMENT_IS_WASM_WORKER) || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD) || (typeof ENVIRONMENT_IS_AUDIO_WORKLET != 'undefined' && ENVIRONMENT_IS_AUDIO_WORKLET)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: /var/folders/2b/37vhp07d7813st_d8ygx2ktw0000gn/T/tmpvp94j7hd.js
-// include: /var/folders/2b/37vhp07d7813st_d8ygx2ktw0000gn/T/tmpbryqd2u3.js
+  // end include: /var/folders/2b/37vhp07d7813st_d8ygx2ktw0000gn/T/tmpy8v_4bcp.js
+// include: /var/folders/2b/37vhp07d7813st_d8ygx2ktw0000gn/T/tmp21kz5b7s.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: /var/folders/2b/37vhp07d7813st_d8ygx2ktw0000gn/T/tmpbryqd2u3.js
+  // end include: /var/folders/2b/37vhp07d7813st_d8ygx2ktw0000gn/T/tmp21kz5b7s.js
 
 
 var arguments_ = [];
